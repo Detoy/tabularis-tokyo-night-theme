@@ -1,0 +1,34 @@
+{
+  "$schema": "https://registry.tabularis.dev/manifest.schema.json?kind=theme",
+  "name": "Tokyo Night",
+  "version": "1.0.0",
+  "kind": "theme",
+  "min_runtime_version": "0.26.0",
+  "theme_schema_version": 1,
+  "theme_variants": [
+    {
+      "id": "day",
+      "name": "Tokyo Night Day",
+      "file": "themes/light.json"
+    },
+    {
+      "id": "night",
+      "name": "Tokyo Night Night",
+      "file": "themes/dark.json"
+    }
+  ],
+  "id": "tokyo-night-theme",
+  "description": "Tokyo Night Day and Night for Tabularis, including SQL editor colors.",
+  "license": "MIT AND Apache-2.0",
+  "category": "theme",
+  "tags": [
+    "tokyo-night",
+    "light",
+    "dark"
+  ],
+  "homepage": "https://github.com/Detoy/tabularis-tokyo-night-theme",
+  "documentation_url": "https://github.com/Detoy/tabularis-tokyo-night-theme#readme",
+  "support": {
+    "issues_url": "https://github.com/Detoy/tabularis-tokyo-night-theme/issues"
+  }
+}

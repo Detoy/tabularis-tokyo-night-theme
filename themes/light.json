@@ -1,0 +1,114 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TabularisDB/tabularis/main/src/schemas/theme-definition-v1.json",
+  "schemaVersion": 1,
+  "mode": "light",
+  "attribution": "Tokyo Night palette by folke/tokyonight.nvim (Apache-2.0), adapted by Yug Patel. Selected foreground lightness adjusted for WCAG AA.",
+  "colors": {
+    "bg": {
+      "base": "#e1e2e7",
+      "elevated": "#d0d5e3",
+      "overlay": "#d0d5e3",
+      "input": "#d0d5e3",
+      "tooltip": "#d0d5e3"
+    },
+    "surface": {
+      "primary": "#d0d5e3",
+      "secondary": "#c4c8da",
+      "tertiary": "#b7c1e3",
+      "hover": "#c4c8da",
+      "active": "#2e7de9",
+      "disabled": "#d0d5e3"
+    },
+    "text": {
+      "primary": "#2c4c97",
+      "secondary": "#445287",
+      "muted": "#4d5373",
+      "disabled": "#848cb5",
+      "accent": "#1251a8",
+      "inverse": "#000000"
+    },
+    "accent": {
+      "primary": "#2e7de9",
+      "secondary": "#771dec",
+      "success": "#4b6431",
+      "warning": "#725833",
+      "error": "#b9093c",
+      "info": "#006485"
+    },
+    "border": {
+      "subtle": "#b4b5b9",
+      "default": "#a8aecb",
+      "strong": "#8990b3",
+      "focus": "#2074e8"
+    },
+    "semantic": {
+      "string": "#4b6431",
+      "number": "#8f4a00",
+      "boolean": "#771dec",
+      "date": "#006485",
+      "null": "#545b7e",
+      "primaryKey": "#725833",
+      "foreignKey": "#006485",
+      "index": "#7242b7",
+      "modified": "#1359b8",
+      "deleted": "#b9093c",
+      "new": "#4b6431"
+    }
+  },
+  "editor": {
+    "colors": {
+      "editor.background": "#e1e2e7",
+      "editor.foreground": "#2c4c97",
+      "editor.selectionBackground": "#b7c1e3",
+      "editor.lineHighlightBackground": "#c4c8da",
+      "editorLineNumber.foreground": "#596294",
+      "editorLineNumber.activeForeground": "#2c4c97",
+      "editorCursor.foreground": "#2e7de9",
+      "editorWidget.background": "#d0d5e3",
+      "editorWidget.border": "#8990b3"
+    },
+    "rules": [
+      {
+        "token": "comment",
+        "foreground": "#596294",
+        "fontStyle": "italic"
+      },
+      {
+        "token": "keyword",
+        "foreground": "#771dec"
+      },
+      {
+        "token": "string",
+        "foreground": "#4b6431"
+      },
+      {
+        "token": "number",
+        "foreground": "#8f4a00"
+      },
+      {
+        "token": "operator",
+        "foreground": "#006485"
+      },
+      {
+        "token": "identifier",
+        "foreground": "#2c4c97"
+      },
+      {
+        "token": "identifier.quote",
+        "foreground": "#006485"
+      },
+      {
+        "token": "predefined",
+        "foreground": "#1251a8"
+      },
+      {
+        "token": "delimiter",
+        "foreground": "#445287"
+      },
+      {
+        "token": "invalid",
+        "foreground": "#b9093c"
+      }
+    ]
+  }
+}

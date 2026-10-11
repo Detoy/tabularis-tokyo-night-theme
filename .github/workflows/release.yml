@@ -1,0 +1,35 @@
+name: Release theme
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+concurrency:
+  group: theme-release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '22'
+      - name: Validate and package offline
+        env:
+          THEME_TAG: ${{ github.ref_name }}
+        run: |
+          node --test tests/contrast.test.mjs
+          node tools/check-contrast.mjs
+          node tools/theme.mjs validate . --tag "$THEME_TAG"
+          node tools/theme.mjs package . --tag "$THEME_TAG" --output theme-universal.zip
+      - name: Create a draft release for review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          THEME_TAG: ${{ github.ref_name }}
+        run: gh release create "$THEME_TAG" theme-universal.zip --verify-tag --draft --generate-notes

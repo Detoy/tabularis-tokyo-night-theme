@@ -1,0 +1,9 @@
+{
+  "name": "tabularis-tokyo-night-theme",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node tools/theme.mjs validate .",
+    "package": "node tools/theme.mjs package . --output theme-universal.zip"
+  }
+}
