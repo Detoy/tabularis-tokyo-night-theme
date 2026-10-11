@@ -8,7 +8,12 @@ Download `theme-universal.zip` from the [latest release](https://github.com/Deto
 
 ## Screenshots
 
-Local ZIP installation has been checked in Tabularis 0.27.0. Native screenshots will be added before the release is published.
+Captured in the native Tabularis 0.27.0 app on macOS after local ZIP installation. Both variants were checked with SQLite query results, SQL syntax colors, keyboard focus, and the query parameters dialog.
+
+| Day | Night |
+| --- | --- |
+| ![Day SQL editor, sidebar and results](docs/screenshots/day-editor.png) | ![Night SQL editor, sidebar and results](docs/screenshots/night-editor.png) |
+| ![Day parameter dialog](docs/screenshots/day-modal.png) | ![Night parameter dialog](docs/screenshots/night-modal.png) |
 
 ## Validate and package
 

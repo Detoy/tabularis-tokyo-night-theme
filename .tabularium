@@ -30,5 +30,27 @@
   "documentation_url": "https://github.com/Detoy/tabularis-tokyo-night-theme#readme",
   "support": {
     "issues_url": "https://github.com/Detoy/tabularis-tokyo-night-theme/issues"
-  }
+  },
+  "screenshots": [
+    {
+      "url": "https://raw.githubusercontent.com/Detoy/tabularis-tokyo-night-theme/main/docs/screenshots/day-editor.png",
+      "caption": "Tokyo Night Day: SQL editor, sidebar and query results",
+      "alt": "Tabularis in Tokyo Night Day showing SQL syntax colors and typed query results."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Detoy/tabularis-tokyo-night-theme/main/docs/screenshots/day-modal.png",
+      "caption": "Tokyo Night Day: query parameters dialog",
+      "alt": "Tabularis in Tokyo Night Day showing a parameter input and visible keyboard focus."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Detoy/tabularis-tokyo-night-theme/main/docs/screenshots/night-editor.png",
+      "caption": "Tokyo Night Night: SQL editor, sidebar and query results",
+      "alt": "Tabularis in Tokyo Night Night showing SQL syntax colors and typed query results."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Detoy/tabularis-tokyo-night-theme/main/docs/screenshots/night-modal.png",
+      "caption": "Tokyo Night Night: query parameters dialog",
+      "alt": "Tabularis in Tokyo Night Night showing a parameter input and visible keyboard focus."
+    }
+  ]
 }
